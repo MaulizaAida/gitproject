@@ -1,0 +1,33 @@
+Langkah Git:
+
+1. masuk ke folder projek (cd)
+2. list (ls)
+3. clone git (git clone https://github.com/israhabibi/GitPrj.git)
+4. masuk ke folder projek python (ex: app.py) pakai (cd)
+5. list (ls) pastikan sudah di app.py
+6. running aplikasi (python app.py)
+
+jika ada edit :
+7. stop aplikasi
+
+kalau belum punya akun :
+*/ git config --global user.email "example@gmail.com"
+*/ git config --global user.name "user"
+*/ atau login di github
+
+8. git branch (untuk cek sedang di branch master atau develop)
+9. git checkout master (untuk pindah ke branch master jika sekarang berada di branch lain)
+10. kalau sudah di master ((git pull) untuk menarik code terbaru)
+11. git checkout -b [branch_name] (untuk membuat branch baru yang akan di push dan merge dengan master)
+12. git branch (untuk cek branch aktif)
+13. edit programke branch yang baru dibuat)
+14. git status (untuk memastikan apakah sudah ada perubahan di code)
+15. git add . (untuk menambah perubahan)
+16. git commit -m ['nama perubahan'] (untuk menyimpan perubahan)
+17. kalau belum pernah di push pakai :
+    */ git push --set-upstream origin [branch_name] (untuk push pemintaan perubahan ke github)
+    */ kalau sudah git push
+18. masuk ke link git -> create pull request -> merge -> submit
+
+note :
+kalau ingin melakuakn develop kembali ke step 8
